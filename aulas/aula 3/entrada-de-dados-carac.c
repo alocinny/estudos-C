@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
 
 int main()
 {
-    
+    char letraInicial;
     printf("Informe a letra inicial do seu nome:");
     scanf("%c", &letraInicial);
 
